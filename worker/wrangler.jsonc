@@ -1,0 +1,10 @@
+{
+  "name":"chorebank-remote",
+  "main":"src/index.js",
+  "compatibility_date":"2026-10-19",
+  "assets":{"directory":"../web/build/client","binding":"ASSETS","not_found_handling":"single-page-application","run_worker_first":["/api/*","/device"]},
+  "vars":{"APP_ORIGIN":"https://replace-with-your-worker.workers.dev"},
+  "durable_objects":{"bindings":[{"name":"BANK","class_name":"BankRelay"}]},
+  "migrations":[{"tag":"v1","new_sqlite_classes":["BankRelay"]}],
+  "observability":{"enabled":false}
+}

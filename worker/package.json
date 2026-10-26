@@ -1,0 +1,1 @@
+{"name":"chorebank-remote-worker","private":true,"type":"module","scripts":{"test":"node --test test/*.test.js","dev":"wrangler dev","check":"wrangler deploy --dry-run","deploy":"wrangler deploy"},"devDependencies":{"wrangler":"4.151.2","miniflare":"4.20260730.0"}}

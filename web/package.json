@@ -1,0 +1,19 @@
+{
+  "name": "chorebank-remote-portal",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "react-router dev --host 127.0.0.1",
+    "build": "react-router build"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-router": "8.4.0",
+    "isbot": "5.2.2"
+  },
+  "devDependencies": {
+    "@react-router/dev": "8.4.0",
+    "vite": "8.3.4"
+  }
+}
